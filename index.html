@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> fabricio | portfolio </title>
+        <meta name="viewport" content="widtd=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:400,900&family=Source+Sans+Pro:300,900&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/d487ce9121.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="#" alt=""> <!-- mi logo, puede ser mi nombre en alguna graduacion -->
+            </div>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home </a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My services </a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My work </a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Fabricio</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">DEVELOPER</p>
+            <img src="img/fabricio-sonriendo.jpg" alt="picture-of-fabricio" class="intro__img">
+        </section>
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>design + development</h3>
+                    <p>I work with frameworks such as flask and django to create interactive web-applications that contribute
+                        to solving every-day problems while having friendly and accesible interfaces.
+                    </p>
+                </div>
+                <div class="service">
+                    <h3>e-commerce</h3>
+                    <p> If you run a business I can help increasing your market through simple-yet-functional websites
+                        and instruct you on how to add, edit or remove products from your website.
+                    </p>
+                </div>
+                <div class="service">
+                    <h3>consulting</h3>
+                    <p>I earned my college diploma in Chemical engineering, got Master's education in Ecology and Freshwater Ecology, 
+                        and worked as field engineer in an international oil & gas company. This gave me a wide set of knowledge
+                        applicable to many problems and issues many costumers may have.
+                    </p>
+                </div>
+
+            </div>
+            <a href="#work" class="btn">My work</a>
+
+        </section>
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Developer and science enthusiast based in La Plata</p>
+            <div class="about-me__body">
+                <p>I am an Argentinian self-taught (excluding google and stackoverflow here) developer, 
+                    from the world-famous region of Patagonia, now living in La Plata. I like pizza and beating cognitive biases.</p>
+                <p>I've been always drawn to computers since I was a kid, trying to get GBC videogames to work on my PC, and lately
+                    I've decided to take my hobby and transform it into a career. I've got a solid background in abstraction thanks to my 
+                    degree in Chemical Engineering and an IELTS band 8 score that certify my English skills. Web apps and EDA are my jam.
+                </p>
+            </div>
+            <img src="img/fabricio-parado.jpg" alt="fabricio-standing-cool-af" class="about-me__img">
+        </section>
+        
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            <div class="portfolio">
+                <a href="https://jyrelectrostore.herokuapp.com" class="portfolio__item">
+                    <img src="img/commerce.jpg" alt="ecommerce" class="portfolio__img"> 
+                </a>
+                <a href="https://fracturas-arg.herokuapp.com" class="portfolio__item">
+                    <img src="img/oil-rig.jpg" alt="oil-rig" class="portfolio__img"> 
+                </a>
+                <a href="https://wishlist-app-arg.herokuapp.com" class="portfolio__item">
+                    <img src="img/starry-sky.gif" alt="wishlist" class="portfolio__img"> 
+                </a>
+                <a href="https://twitter-djangoclone.herokuapp.com" class="portfolio__item">
+                    <img src="img/clone.png" alt="twitter-clone" class="portfolio__img"> 
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <a href="mailto:fabricio.saavedra@outlook.com" class="footer__link">fabricio.saavedra@outlook.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a href="https://github.com/fabriccio27" class="social-list__link"><i class="fab fa-github"></i></a></li>
+                <li class="social-list__item"><a href="https://twitter.com/caradeculpable" class="social-list__link"><i class="fab fa-twitter"></i></a></li>
+                <li class="social-list__item"><a href="https://www.linkedin.com/in/fabricio-saavedra-n1271991/" class="social-list__link"><i class="fab fa-linkedin-in"></i></a></li>
+
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>
+
